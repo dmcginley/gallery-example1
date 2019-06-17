@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9928f0123b.js"></script>
+    <!-- lightcase -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightcase.css">
+    <script type="text/javascript" src="js/lightcase.js"></script>
+
+    <title>playground</title>
+</head>
+
+<body>
+
+
+    <article class="container">
+        <section class="flex">
+            <div class="box">
+
+                <a href="images/1.jpg" data-lc-options='{"maxWidth":840, "maxHeight":950}' data-rel="lightcase"
+                    title="Heading">
+                    <span class="search">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                    <img src="images/1.jpg" width="240" alt="Lorem ipsum, dolor sit amet.">
+                </a>
+                <div class="buttons">
+                    <a href="images/1.jpg" download="image1.jpg"><i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="images/2.jpg" data-lc-options='{"maxWidth":840, "maxHeight":950}' data-rel="lightcase"
+                    title="Heading">
+                    <span class="search">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                    <img src="images/2.jpg" width="240" alt="Lorem ipsum, dolor sit amet.">
+                </a>
+                <div class="buttons">
+                    <a href="images/1.jpg" download="image1.jpg"><i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="images/3.jpg" data-lc-options='{"maxWidth":840, "maxHeight":950}' data-rel="lightcase"
+                    title="Heading">
+                    <span class="search">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                    <img src="images/3.jpg" width="240" alt="Lorem ipsum, dolor sit amet.">
+                </a>
+                <div class="buttons">
+                    <a href="images/1.jpg" download="image1.jpg"><i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="images/4.jpg" data-lc-options='{"maxWidth":840, "maxHeight":950}' data-rel="lightcase"
+                    title="Heading">
+                    <span class="search">
+                        <i class="fas fa-search-plus"></i>
+                    </span>
+                    <img src="images/4.jpg" width="240" alt="Lorem ipsum, dolor sit amet.">
+                </a>
+                <div class="buttons">
+                    <a href="images/1.jpg" download="image1.jpg"><i class="fas fa-file-download"></i></a>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+
+
+    <!-- scripts -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('a[data-rel^=lightcase]').lightcase();
+        });
+    </script>
+
+
+</body>
+
+</html>
